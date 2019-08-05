@@ -22,7 +22,7 @@ const AnecdoteList = (props) => {
     )
 }
 
-
+//HAD ISSUES HERE props.filter always null. Couldn't figure how to initialize it.
 const filteredAnecdotes = (props) => {
     if(props.filter === null) {
         console.log(props)
