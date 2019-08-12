@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpCMDA3IiwiaWQiOiI1ZDFkZjQ3M2YyMGUxYzNiMGM2OWM5MDYiLCJpYXQiOjE1NjIyNDg5NTR9.ZyFqbNZ4Jdd5J_sGmPUOb9CECrXumv6qQNCUyNBV3AY
+
+
+{
+	"title": "TEST BLOG 3",
+	"author": "Topi Matikainen",
+	"url": "www.23424242/jrs.org"
+}

@@ -1,0 +1,78 @@
+.success {
+    color: green;
+    background: lightgrey;
+    font-size: 20px;
+    border-style:solid;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom: 10px;
+  }
+
+  .error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style:solid;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    background-color: #18191a;
+  }
+
+  .container {
+    background-color: #232324;
+    height: 100%;
+  }
+
+  h1, h2, h3 { color: white;
+    text-align: center
+  }
+
+  .blogForm {
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center
+  }
+
+  .blogInput {
+    padding:1em;
+    text-align: center;
+  }
+
+  .blogStyle {
+      padding-Top: 10px;
+      padding-Bottom:10px;
+      border: solid white;
+      border-Width: 2px;
+      margin-Bottom: 5px;
+      text-align: center;
+}
+
+.blogView {
+  text-align: center;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  margin-bottom:20px;
+  line-height: 1.5em
+}
+
+.userList {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px
+}
+
+.blogList {
+  padding-inline-start: 0px
+}
+
+.cancelBtn{
+  text-align: center;
+}
