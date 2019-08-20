@@ -10,8 +10,8 @@ const pubsub = new PubSub()
 const JWT_SECRET = 'SALAISUUS'
 
 mongoose.set('useFindAndModify', false)
-
-const MONGODB_URI = 'mongodb+srv://MOOCuser:5TkHaSWONIGNk9Xt@tm-cluster-sv3gi.mongodb.net/graphql?retryWrites=true&w=majority'
+//HIDDEN PASSWORD FROM GIT
+const MONGODB_URI = 'mongodb+srv://MOOCuser:salasana@tm-cluster-sv3gi.mongodb.net/graphql?retryWrites=true&w=majority'
 
 console.log('connecting to', MONGODB_URI)
 
